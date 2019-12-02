@@ -133,8 +133,8 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
     owner = "jc3wish"       # Your GitHub ID
     repo = "jc3wish.github.io.comment"               # The repo to store comments
-    clientId = ""           # Your client ID
-    clientSecret = ""       # Your client secret
+    clientId = "f3281f42aa53efc269d3"           # Your client ID
+    clientSecret = "d01f916754cbbe5e9e856941a7e8161d547d135d"       # Your client secret
 
   [params.utterances]       # https://utteranc.es/
     owner = ""              # Your GitHub ID
@@ -175,7 +175,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   [params.reward]                                         # 文章打赏
     enable = false
-    wechat = ""           # 微信二维码
+    wechat = "/public/weixin.JPG"           # 微信二维码
     alipay = ""           # 支付宝二维码
 
   [params.social]                                         # 社交链接
