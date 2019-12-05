@@ -50,11 +50,17 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   url = "/categories/"
 
 [[menu.main]]
+  name = "自我介绍"
+  weight = 45
+  identifier = "about"
+  url = "/about"
+
+[[menu.main]]
   name = "Bifrost"
   weight = 50
   identifier = "bifrost_source"
   url = "https://github.com/brokercap/Bifrost"
-  
+
 [[menu.main]]
   name = "RabbitMQ源码解析"
   weight = 60

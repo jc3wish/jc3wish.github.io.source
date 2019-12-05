@@ -1,6 +1,6 @@
 ---
-title: "JAVA JVM 堆内存 GC 及 内存分配"
-date: 2019-12-04T23:06:26+08:00
+title: "JAVA JVM 堆内存 GC 及 内存分配 -- CMS 收集器"
+date: 2019-12-05T22:06:26+08:00
 draft: false
 tags: ["JAVA","JVM"]
 categories: ["JAVA"]
@@ -11,6 +11,10 @@ JAVA 中 分堆内存 和 堆外内存
 堆外内存不是由JVM控制的，这个得开发人员自己手工调用方法去释放
 
 堆内内存是由JVM控制，可以由JVM 通过算法自动 GC
+
+JVM 垃圾回收有很多种收集器，我们这里讲的是CMS收集器，G1 收集器我们这里不做讲解
+
+并且JAVA8 及以前版本默认是采用  CMS 收集器的，JAVA9及以后默认是G1
 
 JAVA 在 JVM 启动的时候，就事先对堆内存进行了划分了几个模块
 
